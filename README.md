@@ -40,3 +40,19 @@
 * [https://github.com/deepcam-cn/yolov5-face](https://github.com/deepcam-cn/yolov5-face)
 
 * [https://github.com/derronqi/yolov7-face](https://github.com/derronqi/yolov7-face)
+
+#### Updated
+In original repo "detector.py" and "predict.py" added.
+```bash
+# Create virtual environment
+python -m venv yolo_env
+yolo_env/scripts/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+```bash
+# Run detector
+python predict.py --video datasets\sample_zoom_videos\OCC_Meeting.mp4
+```
